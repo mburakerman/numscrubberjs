@@ -19,7 +19,7 @@ or use CDN
 Just add ```data-numscrubber``` to your input number  
 
 ```html
-<input data-numscrubber type="number" value="5" min="10" max="50" />
+<input data-numscrubber type="number" value="6" min="4" max="50" />
 ```
 and then call  ```init()```
 

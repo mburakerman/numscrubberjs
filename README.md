@@ -32,6 +32,8 @@ Thats it!
 
 [CodePen demo](http://codepen.io/anon/pen/zZwZpJ)
 
+![CodePen demo](https://media.giphy.com/media/l0IygGSCTG9xhArXW/giphy.gif)
+
 ### Size
 
 1.2 Kb minified

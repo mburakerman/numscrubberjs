@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Source+Sans+Pro:400,700');
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1.05px;
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.page-wrapper {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 800px;
+}
+
+.title a {
+    font-family: 'Baloo Bhaina', cursive;
+    color: #c47289;
+    font-size: 45px;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.description {
+    color: #b1b1b1;
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+.minified {
+    color: #717f86;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.tick {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.tick path,
+.tick polygon,
+.tick rect {
+    fill: #5fcf80;
+}
+
+.tick circle {
+    stroke: #5fcf80;
+    stroke-width: 1;
+}
+
+.buttons {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.buttons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    background-size: 200% auto;
+}
+
+.buttons a:first-child {
+    margin-right: 25px;
+    background-image: linear-gradient(to right, #c47289 0%, #fda085 51%, #9a6e8e 100%);
+}
+
+.buttons a:nth-child(2) {
+    margin-right: 25px;
+    background-image: linear-gradient(to right, #00aced 0%, #1dcaff 51%, #0084b4 100%);
+}
+
+.buttons a:first-child:hover, .buttons a:nth-child(2):hover {
+    background-position: right center;
+}
+
+.buttons a svg {
+    position: relative;
+    top: 4px;
+}
+
+@media screen and (max-width: 450px) {
+    .buttons {
+        margin: 50px auto;
+        text-align: center;
+        width: 300px;
+    }
+
+    .buttons a {
+        display: block;
+        width: 100%;
+    }
+
+    .buttons a:first-child {
+        margin-bottom: 10px;
+    }
+}
+
+.examples {
+    display: table;
+    max-width: 800px;
+}
+
+.svg_arrow {
+    width: 20px;
+    height: 20px;
+    fill: #ccc;
+    position: relative;
+    top: 4px;
+    left: 0px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.container:hover > h4 > .svg_arrow {
+    fill: #999;
+    left: 5px;
+}
+
+.examples h3 {
+    font-size: 30px;
+    color: #9a6e8e;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: table-cell;
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.container h4 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #868795;
+}
+
+hr {
+    border: 1px solid transparent;
+}
+
+pre {
+    max-width: 350px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #f2f2f2;
+    color: #fff;
+    padding: 3px 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    overflow: auto;
+    overflow-x: scroll;
+    word-wrap: normal;
+    white-space: pre;
+}
+
+@media screen and (max-width: 750px) {
+    .examples h3 {
+        text-align: center;
+    }
+
+    .examples .container {
+        display: table-cell;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #eee;
+    }
+
+    pre {
+        max-width: 350px;
+        margin: 20px auto;
+    }
+}
+
+.custom_input {
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    padding: 5px 10px;
+    color: #555;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    outline: none;
+}
+
+.view_on_github {
+    background-image: linear-gradient(to right, #333 0%, #666 51%, #444 100%);
+    color: #fff;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    background-size: 200% auto;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px 15px;
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+.view_on_github svg {
+    position: relative;
+    top: 2px;
+}
+
+.view_on_github:hover {
+    background-position: right center;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    color: #767676;
+    margin-bottom: 5px;
+}
+
+footer a {
+    margin: 0 auto;
+    color: #595959;
+    text-decoration: none;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+footer a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+

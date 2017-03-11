@@ -1,4 +1,4 @@
-# Numcrubber.js
+# Numscrubber.js
 
 >Let's change values of input numbers by dragging the mouse left & right
 
@@ -25,7 +25,7 @@ and then call  ```init()```
 
 ```js
 <script>
-    Numcrubber.init();
+    Numscrubber.init();
 </script>
 ```
 Thats it!

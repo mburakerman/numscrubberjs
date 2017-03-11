@@ -30,7 +30,7 @@ and then call  ```init()```
 ```
 Thats it!
 
-[CodePen demo](http://codepen.io/anon/pen/YZVZrm)
+[CodePen demo](http://codepen.io/anon/pen/zZwZpJ)
 
 ### Size
 

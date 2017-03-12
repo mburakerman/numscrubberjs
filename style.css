@@ -208,9 +208,19 @@ pre {
     }
 
     pre {
-        max-width: 350px;
+        max-width: 400px;
         margin: 20px auto;
     }
+}
+
+@media screen and (max-width: 500px) {
+   
+     pre {
+       max-width: 95%;
+       white-space: pre-wrap;
+       word-wrap: break-word;
+    }
+
 }
 
 .custom_input {

@@ -36,7 +36,7 @@ Thats it!
 
 ### Size
 
-1.2 kb minified
+1.1 kb minified
 
 ### License
 

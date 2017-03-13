@@ -49,9 +49,7 @@ Numscrubber.init = function() {
       
       // Range style
       range.style.position = "absolute";
-      range.style.top = "50%";
       range.style.margin = input_style.margin;
-      range.style.marginTop = (-range.offsetHeight / 2) + "px";
       range.style.left = 0;
       range.style.border = "1px solid transparent";
       range.style.opacity = 0;

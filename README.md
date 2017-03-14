@@ -11,7 +11,7 @@ Include numscrubber.js file
 ```
 or use CDN
 ```html
-<script src="https://cdn.rawgit.com/mburakerman/numscrubberjs/master/src/numscrubber.js"></script>
+<script src="https://rawgit.com/mburakerman/numscrubberjs/master/src/numscrubber.js"></script>
 ```
 
 ### Usage

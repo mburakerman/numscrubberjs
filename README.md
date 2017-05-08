@@ -1,9 +1,9 @@
 # Numscrubber.js
 
->Let's change values of input numbers by dragging the mouse left & right
+> Let's change values of input numbers by dragging the mouse left & right
 
 
-### Install
+## Install
 
 Include numscrubber.js file
 ```html
@@ -14,7 +14,7 @@ or use CDN
 <script src="https://rawgit.com/mburakerman/numscrubberjs/master/src/numscrubber.js"></script>
 ```
 
-### Usage
+## Usage
 
 Just add ```data-numscrubber``` to your input number  
 
@@ -34,10 +34,17 @@ Thats it!
 
 ![CodePen demo](https://media.giphy.com/media/l0IygGSCTG9xhArXW/giphy.gif)
 
-### Size
 
-1.1 kb minified
+## Browsers
 
-### License
+Works well on all modern browsers.
+
+
+## Size
+
+1.1 kb minified.
+
+
+## License
 
 Licensed under the MIT License.

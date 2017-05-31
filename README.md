@@ -5,6 +5,8 @@
 
 ## Install
 
+`npm install numscrubberjs`
+
 Include numscrubber.js file
 ```html
 <script src="src/numscrubber.js"></script>

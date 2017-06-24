@@ -5,7 +5,7 @@
 
 ## Install
 
-`npm install numscrubberjs`
+[![NPM](https://nodei.co/npm/numscrubberjs.png?mini=true)](https://www.npmjs.com/package/numscrubberjs/)
 
 Include numscrubber.js file
 ```html

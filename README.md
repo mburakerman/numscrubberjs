@@ -13,7 +13,7 @@ Include numscrubber.js file
 ```
 or use CDN
 ```html
-<script src="https://rawgit.com/mburakerman/numscrubberjs/master/src/numscrubber.js"></script>
+<script src="https://unpkg.com/numscrubberjs"></script>
 ```
 
 ## Usage

@@ -1,0 +1,22 @@
+{
+  "name": "numscrubberjs",
+  "description": "> Let's change values of input numbers by dragging the mouse left & right",
+  "version": "1.0.2",
+  "author": {
+    "name": "Mehmet Burak Erman"
+  },
+  "main": "src/numscrubber.min.js",
+  "homepage": "https://mburakerman.github.io/numscrubberjs/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mburakerman/numscrubberjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mburakerman/numscrubberjs/issues"
+  },
+  "keywords": [
+    "html5-input",
+    "input-number"
+  ],
+  "license": "MIT"
+}

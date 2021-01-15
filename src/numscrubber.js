@@ -53,7 +53,7 @@ Numscrubber.init = function() {
       range.style.left = 0;
       range.style.border = "1px solid transparent";
       range.style.opacity = 0;
-      range.style.cursor = "e-resize";
+      range.style.cursor = "ew-resize";
 
       // Make range width & height equal to input number
       range.style.width = input[i].offsetWidth + "px";

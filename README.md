@@ -32,7 +32,7 @@ and then call  ```init()```
 ```
 Thats it!
 
-[JSFiffle demo](https://jsfiddle.net/9h3mgsp7/)
+[JSFiddle demo](https://jsfiddle.net/9h3mgsp7/)
 
 ![CodePen demo](https://media.giphy.com/media/l0IygGSCTG9xhArXW/giphy.gif)
 
